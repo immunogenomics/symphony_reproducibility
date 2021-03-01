@@ -2,5 +2,6 @@ notebooks/figures/*
 notebooks/figures
 R/.ipynb_checkpoints/*
 R/.ipynb_checkpoints
-
+notebooks/.ipynb_checkpoints
+notebooks/.ipynb_checkpoints/*
 
