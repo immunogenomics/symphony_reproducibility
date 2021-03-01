@@ -1,2 +1,3 @@
 notebooks/figures/*
 notebooks/figures
+*.ipynb_checkpoints
