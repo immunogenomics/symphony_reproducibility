@@ -2,7 +2,7 @@ This directory contains pre-built Symphony reference .rds objects that can be do
 
 The pre-built references available for download include:
 
-- pbmcs_10x_reference.rds: Atlas of PBMCs (20,792 cells) sequenced with three 10x protocols (3'v1, 3'v2, and 5').
+- pbmcs_10x_reference.rds: Atlas of PBMCs (20,571 cells) sequenced with three 10x protocols (3'v1, 3'v2, and 5').
 - pancreas_plate-based_reference.rds: Atlas of pancreatic islet cells (5,887 cells from 32 donors) from four separate studies.
 - fetal_liver_reference_3p.rds: Atlas of fetal liver cells from Popescu et al. (2019) (113,063 cells from 14 donors), sequenced with 10x 3' chemistry.
 - <To be released upon publication> Multimodal Memory T cell CITE-seq atlas (500,089 cells from 271 samples)
