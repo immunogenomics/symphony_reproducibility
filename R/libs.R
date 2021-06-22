@@ -21,7 +21,7 @@ library(reshape2)
 library(stats) # for distance
 library(pdist) # for Euc dist between 2 matrices
 library(purrr) # for mapreduce
-library(hdf5r) # for reading in Seurat objects
+#library(hdf5r) # for reading in Seurat objects
 library(ggrastr)
 library(ggpubr)
 library(ggrepel)
