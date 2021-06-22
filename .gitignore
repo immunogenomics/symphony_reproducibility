@@ -9,4 +9,6 @@ pre-built_references/.ipynb_checkpoints
 *.DS_Store*
 runtime/.ipynb_checkpoints
 ._.DS_Store 
-.DS_Store 
+.DS_Store
+.ipynb_checkpoints
+ 
