@@ -1,0 +1,9 @@
+"","acinar","alpha","beta","delta","ductal","endothelial","epsilon","gamma","immune","stellate"
+"alpha",0,150,31,8,0,0,0,2,0,0
+"beta",0,18,856,20,0,0,0,0,0,0
+"delta",0,6,36,167,0,0,1,8,0,0
+"ductal",1,0,2,0,272,0,0,0,0,0
+"endothelial",0,4,2,0,1,129,0,0,0,3
+"gamma",0,6,13,6,0,0,0,16,0,0
+"immune",1,0,2,0,0,0,0,0,58,0
+"stellate",0,0,0,0,0,1,0,0,0,60
