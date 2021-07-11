@@ -13,4 +13,4 @@ runtime/.ipynb_checkpoints
 .ipynb_checkpoints
 pbmcs_10x/results/pbmcs_10x_init.rds
 seurat_compatibility/cache_*
-fetal_liver/results/* 
+fetal_liver/results 
