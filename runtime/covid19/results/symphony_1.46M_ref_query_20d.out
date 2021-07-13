@@ -1,0 +1,117 @@
+Sender: LSF System <lsfadmin@cn025>
+Subject: Job 781457: <Rscript run_symphony_ref_query_20d.R > Done
+
+Job <Rscript run_symphony_ref_query_20d.R > was submitted from host <cn003> by user <jbk37> in cluster <cmucluster>.
+Job was executed on host(s) <4*cn025>, in queue <big-multi>, as user <jbk37> in cluster <cmucluster>.
+</PHShome/jbk37> was used as the home directory.
+</data/srlab2/jkang/referencemapping/covid19> was used as the working directory.
+Started at Mon Jun 21 12:25:01 2021
+Results reported at Tue Jun 22 07:16:44 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+Rscript run_symphony_ref_query_20d.R 
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   : 505764.44 sec.
+    Max Memory :     48523 MB
+    Max Swap   :     50356 MB
+
+    Max Processes  :         3
+    Max Threads    :        30
+
+The output (if any) follows:
+
+WARNING: ignoring environment value of R_HOME
+[1] "Timing reference building..."
+Finding variable genes using vst method
+Total 1301 genes for downstream steps
+Scaling and PCA
+Running Harmony integration
+Harmony 1/20
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 2/20
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 3/20
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 4/20
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 5/20
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 6/20
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 7/20
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 8/20
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 9/20
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 10/20
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony converged after 10 iterations
+Computing reference compression terms
+     user    system   elapsed 
+ 99434.08 401116.62  63697.78 
+Warning messages:
+1: Quick-TRANSfer stage steps exceeded maximum (= 69496050) 
+2: Quick-TRANSfer stage steps exceeded maximum (= 69496050) 
+3: Quick-TRANSfer stage steps exceeded maximum (= 69496050) 
+4: Quick-TRANSfer stage steps exceeded maximum (= 69496050) 
+5: Quick-TRANSfer stage steps exceeded maximum (= 69496050) 
+6: Quick-TRANSfer stage steps exceeded maximum (= 69496050) 
+7: Quick-TRANSfer stage steps exceeded maximum (= 69496050) 
+8: Quick-TRANSfer stage steps exceeded maximum (= 69496050) 
+9: Quick-TRANSfer stage steps exceeded maximum (= 69496050) 
+10: Quick-TRANSfer stage steps exceeded maximum (= 69496050) 
+[1] "Running UMAP"
+    user   system  elapsed 
+4728.770    0.087 4011.837 
+Warning message:
+invalid uid value replaced by that for user 'nobody' 
+[1] "Saving reference"
+[1] "Timing query mapping without UMAP..."
+Scaling and synchronizing query gene expression
+Found 1301 reference variable genes in query dataset
+Project query cells using reference gene loadings
+Clustering query cells to reference centroids
+Correcting query batch effects
+All done!
+   user  system elapsed 
+ 63.128  43.383  10.959 
+[1] "Timing query mapping with UMAP..."
+Scaling and synchronizing query gene expression
+Found 1301 reference variable genes in query dataset
+Project query cells using reference gene loadings
+Clustering query cells to reference centroids
+Correcting query batch effects
+UMAP
+All done!
+   user  system elapsed 
+117.417  89.395  62.589 
+[1] "Saving query"
