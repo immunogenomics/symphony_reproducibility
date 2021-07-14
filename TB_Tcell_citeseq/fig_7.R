@@ -17,7 +17,7 @@ library(reshape2)
 library(purrr)
 library(symphony)
 
-# Fig. 7 and Supp Fig. 12
+# Fig. 7 and Supp Fig. 15
 
 k <- 50
 
@@ -125,7 +125,7 @@ plot_shuffled_features <- function(ab, umap, exprs, pct = 0.95) {
       labs(title = ab))
 }
 
-# Supp Fig 12
+# Supp Fig 15
 
 mrna_cor_bydonor_agg <- c()
 for(x in c(5,10,50)) {
